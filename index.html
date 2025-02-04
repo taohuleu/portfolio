@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="main-page" content="width=device-width, initial-scale=1.0">
+    <title>Tao Huleu</title>
+    <link href="https://fonts.cdnfonts.com/css/andale-mono" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/webp" href="/assets/image/super-earth-helldivers-svg-logo.webp">
+</head>
+<body>
+
+<header id="top">
+        <div class="container">
+
+            <a href="#">
+                <img id="logo" src="assets/image/nyan-cat-clear.gif" alt="nyan_logo">
+            </a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <p id="nom" onclick="afficherImage()" style="cursor: pointer; color: azure;">Tao Huleu</p>
+                            <script>
+                                let visible = false;
+                                function afficherImage() {
+                                    let img = document.getElementById("logo");
+                                    if (visible) {
+                                        img.style.visibility = "hidden";
+                                    } else {
+                                        img.style.display = "block"; // Affiche l'image
+                                        img.style.visibility = "visible";
+                                    }
+                                    visible = !visible;
+                                }
+                            </script>
+                    </li>
+                    <li>
+                        <a href="#">Acceuil</a>
+                    </li>
+                    <li>
+                        <a href="#a-propos">À propos</a>
+                    </li>
+                    <li>
+                        <a href="#documentation">Documentation</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h1>Tao Huleu</h1>
+    </section>
+
+    <section id="twitch" class="container">
+        <div id="twitch-embed"></div>
+
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script>
+          new Twitch.Embed("twitch-embed", {
+            width: "1300vw",
+            height: "600vh",
+            channel: "terracid",
+            parent: ["ton-site.com"] // Mets ton domaine ici
+          });
+        </script>
+    </section>
+
+    <section id="a-propos" class="container">
+        <img src="/assets/image/nyan-cat-portrai.gif" alt="nyan-cat-portrai">
+        <section id="text-a-propos">
+            <h2>À propos</h2>
+            <p>Je m'appel Tao Huleu et je suis actuellement en première année de BTS SIO option SISR en aprentissage 
+                au sein du Groupement des Systemes Numérique du Service Départemental d'Incendie et de Secours de la Mayenne.
+            </p>
+            <p>Vous pouvez visionner mon CV <a href="/assets/document/CV_Huleu_Tao.pdf" target="_blank">ici</a>.</p>
+        </section>
+    </section>
+
+    <section id="documentation">
+        <h2>Documentation</h2>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <h3>Configuration stack LAMP</h3>
+                    </li>
+                    <li>
+                        <h3>Instalation GLPI</h3>
+                    </li>
+                    <li>
+                        <h3>Administration Windows Server</h3>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</body>
+</html>
