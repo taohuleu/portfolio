@@ -93,7 +93,7 @@ BACKGROUND
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-image: url(/assets/image/WT_background.jpg);
+    background-image: url(assets/image/WT_background.jpg);
     border-bottom-right-radius: 10px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.514);
     margin-bottom: 75px;
