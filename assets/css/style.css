@@ -28,7 +28,7 @@ TETE DE PAGE
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(14, 14, 14);
     padding: 15px;
 }
 
@@ -152,6 +152,12 @@ DEBUT CORP DE PAGE
 /******************************
 LES BOUTONS
 ******************************/
+
+.back2top {
+    position: sticky;
+    bottom: auto;
+    float: right;
+}
 
 .btn {
 
