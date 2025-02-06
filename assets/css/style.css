@@ -247,13 +247,12 @@ LES BOUTONS
 
 
 /******************************
-LES BOUTONS
+FOOTER
 ******************************/
 
 #footer {
     background-color: #111; /* Couleur de fond sombre */
     color: #ddd;            /* Texte clair */
-    padding: 40px 20px;
     font-family: Arial, sans-serif;
 }
 
