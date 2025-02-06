@@ -47,7 +47,7 @@ TETE DE PAGE
       
 }
 
-#top nav ul a, #top nav ul p {
+#top nav ul a {
     text-decoration: none;
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +55,7 @@ TETE DE PAGE
 }
 
 #nom {
-    float: left;
+    
 }
 
 /*****************
