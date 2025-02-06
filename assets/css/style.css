@@ -59,7 +59,12 @@ TETE DE PAGE
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    cursor: pointer;
     transition: color 0.3s ease;
+}
+
+#top-groupe:hover {
+    transform: scale(1.1);
 }
 
 #nom {
