@@ -11,46 +11,41 @@
 </head>
 <body>
 
-<header id="top">
-    
+    <header id="top">
         <div class="container">
-
-            <a href="#">
-                <img id="logo" src="assets/image/nyan-cat-clear.gif" alt="nyancat_logo" onclick="location.reload();">
-            </a>
-
+            <!-- Section gauche : Logo + Nom -->
+            <div class="left-section">
+                <a href="#">
+                    <img id="logo" src="assets/image/nyan-cat-clear.gif" alt="nyancat_logo" onclick="location.reload();">
+                </a>
+                <a id="nom" onclick="afficherImage()" style="cursor: pointer; color: azure;">Tao Huleu</a>
+            </div>
+    
+            <!-- Section droite : Menu de navigation -->
             <nav>
                 <ul>
-                    <li>
-                        <a id="nom" onclick="afficherImage()" style="cursor: pointer; color: azure;">Tao Huleu</a>
-                            <script>
-                                let visible = false;
-                                function afficherImage() {
-                                    let img = document.getElementById("logo");
-                                    if (visible) {
-                                        img.style.visibility = "hidden";
-                                    } else {
-                                        img.style.display = "block"; // Affiche l'image
-                                        img.style.visibility = "visible";
-                                    }
-                                    visible = !visible;
-                                }
-                            </script>
-                    </li>
-                    <li>
-                        <a href="#">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="#a-propos">À propos</a>
-                    </li>
-                    <li>
-                        <a href="#documentation">Documentation</a>
-                    </li>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#documentation">Documentation</a></li>
                 </ul>
             </nav>
         </div>
+    
+        <script>
+            let visible = false;
+            function afficherImage() {
+                let img = document.getElementById("logo");
+                if (visible) {
+                    img.style.visibility = "hidden";
+                } else {
+                    img.style.display = "block"; 
+                    img.style.visibility = "visible";
+                }
+                visible = !visible;
+            }
+        </script>
     </header>
-
+    
     <section id="home">
         <h1>Tao Huleu</h1>
     </section>

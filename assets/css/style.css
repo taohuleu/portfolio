@@ -30,12 +30,19 @@ TETE DE PAGE
     width: 100%;
     background-color: rgb(14, 14, 14);
     padding: 15px;
+    z-index: 1000; /* Assure que le header reste au-dessus */
 }
 
 #top > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #top nav ul {
@@ -52,10 +59,19 @@ TETE DE PAGE
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 #nom {
-    
+    margin-left: 0;
+    font-weight: bold;
+    color: azure;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#nom:hover {
+    transform: scale(1.1);
 }
 
 /*****************
