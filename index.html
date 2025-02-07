@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="main-page" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/webp" href="assets/image/super-earth-helldivers-svg-logo.webp">
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
+
 <body>
 
     <header id="top">
@@ -20,7 +23,7 @@
                 </a>
                 <a id="nom" onclick="afficherImage()" style="cursor: pointer; color: azure;">Tao Huleu</a>
             </div>
-    
+
             <!-- Section droite : Menu de navigation -->
             <nav>
                 <ul>
@@ -31,20 +34,6 @@
                 </ul>
             </nav>
         </div>
-    
-        <script>
-            let visible = false;
-            function afficherImage() {
-                let img = document.getElementById("logo");
-                if (visible) {
-                    img.style.visibility = "hidden";
-                } else {
-                    img.style.display = "block"; 
-                    img.style.visibility = "visible";
-                }
-                visible = !visible;
-            }
-        </script>
     </header>
 
     <section id="home">
@@ -58,55 +47,54 @@
         <img src="assets/image/nyan-cat-portrai.gif" alt="nyan-cat-portrai">
         <section id="text-a-propos">
             <h2>À propos</h2>
-            <p>Je m'appel Tao Huleu et je suis actuellement en première année de BTS SIO option SISR en aprentissage 
-                au sein du Groupement des Systemes Numérique du Service Départemental d'Incendie et de Secours de la Mayenne.
+            <p>Je m'appel Tao Huleu et je suis actuellement en première année de BTS SIO option SISR en aprentissage au sein du Groupement des Systemes Numérique du Service Départemental d'Incendie et de Secours de la Mayenne.
             </p>
             <p>Vous pouvez visionner mon CV <a href="assets/document/CV_Huleu_Tao.pdf" target="_blank">ici</a>.</p>
         </section>
     </section>
 
     <section id="documentation" class="bg-light">
-            <div class="container" >
-                <h2>Projet</h2>
-                <div class="tt">
-                    <article class="card">
-                        <h3>Installation GLPI</h3> 
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article>
+        <div class="container">
+            <h2>Projet</h2>
+            <div class="tt">
+                <article class="card">
+                    <h3>Installation GLPI</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
 
-                    <article class="card">
-                        <h3>Controleurs de domaine</h3>
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article>
-    
-                    <article class="card">
-                        <h3>Configuration LAMP</h3>
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article>
+                <article class="card">
+                    <h3>Controleurs de domaine</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
 
-                    <article class="card">
-                        <h3>Configuration SSH</h3>
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article>
+                <article class="card">
+                    <h3>Configuration LAMP</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
 
-                    <article class="card"> 
-                        <h3> OpenNebula</h3>
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article >
+                <article class="card">
+                    <h3>Configuration SSH</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
 
-                    <article class="card">
-                        <h3> Packet Tracer</h3>
-                        <img src="assets/image/150x150.svg" class="img">
-                        <div class="btn btn-primary" >Voir</div>
-                    </article>
-                </div>
+                <article class="card">
+                    <h3> OpenNebula</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
+
+                <article class="card">
+                    <h3> Packet Tracer</h3>
+                    <img src="assets/image/150x150.svg" class="img">
+                    <div class="btn btn-primary">Voir</div>
+                </article>
             </div>
-        </section>
+        </div>
+    </section>
 
     <a href="#" id="backToTop"><b>↑</b></a>
 
@@ -154,7 +142,7 @@
     <!-- Deuxième partie du footer -->
     <div class="footer-bottom">
         <div class="footer-left">
-            <img src="assets/image/nyan-cat-clear.gif" alt="Logo du site" class="footer-logo">
+            <!-- <img src="assets/image/nyan-cat-clear.gif" alt="Logo du site" class="footer-logo"> -->
             <p>&copy; 2025 Tao Huleu. Tous droits réservés.</p>
         </div>
         <div class="footer-right">
@@ -164,4 +152,5 @@
         </div>
     </div>
 </footer>
+
 </html>

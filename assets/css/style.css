@@ -29,7 +29,7 @@ TETE DE PAGE
     top: 0;
     width: 100%;
     background-color: rgb(14, 14, 14);
-    padding: 15px;
+    padding: 13px;
     z-index: 1000; /* Assure que le header reste au-dessus */
 }
 
@@ -251,15 +251,15 @@ FOOTER
 ******************************/
 
 #footer {
-    background-color: #111; /* Couleur de fond sombre */
-    color: #ddd;            /* Texte clair */
+    background-color: #111; /* Couleur de fond */
+    color: #ddd;            /* Texte */
     font-family: Arial, sans-serif;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Permet un bon affichage sur mobile */
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
