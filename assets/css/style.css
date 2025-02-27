@@ -247,7 +247,7 @@ LES BOUTONS
 }
 
 #documentation h2 {
-    padding: 100px 0;
+    padding: 20px 0;
     /* Ajusté pour centrer verticalement */
     display: flex;
     justify-content: center;
@@ -256,14 +256,6 @@ LES BOUTONS
     font-size: xx-large;
     text-transform: uppercase;
     /* Effet plus impactant pour le titre */
-}
-
-
-/* LISTE (au cas où tu ajoutes des <li>) */
-
-#documentation li {
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -357,6 +349,25 @@ LES BOUTONS
 }
 
 
+/******************************
+CONTACT
+******************************/
+
+#form-contact {
+    margin-top: 50px;
+    background-color: rgb(166, 235, 225);
+    padding: 20px;
+}
+
+#form-contact h2 {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Andale Mono', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
 /******************************
 FOOTER
 ******************************/
